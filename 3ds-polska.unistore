@@ -9,7 +9,7 @@
         "sheet": "3ds-polska.t3x",
         "bg_index": 1,
         "bg_sheet": 0,
-        "revision": 1,
+        "revision": 3,
         "version": 3
     },
     "storeContent": [
@@ -28,12 +28,20 @@
             },
             "Zappka3DS.3dsx": [
                 {
+                    "type": "promptMessage",
+                    "message": "Ta aplikacja jest projektem open source napisaną w języku C, która korzysta z API aplikacji Żappka, należącej do Żabka Group S.A. Aplikacja została stworzona wyłącznie w celach edukacyjnych i nie jest powiązana z Żabka Group S.A. Twórca aplikacji nie jest w żaden sposób związany z Żabka Group S.A. i nie czerpie żadnych korzyści finansowych z tego projektu. Wszystkie znaki towarowe, nazwy handlowe i logotypy są własnością odpowiednich właścicieli. Użytkownicy korzystają z aplikacji na własne ryzyko.",
+                },
+                {
                     "type": "downloadFile",
                     "file": "https://github.com/TehFridge/Zappka3DS/releases/download/v2.0.4/Zappka3DS.3dsx",
                     "output": "%3DSX%/Zappka3DS.3dsx"
                 }
             ],
             "Zappka3DS.cia": [
+                {
+                    "type": "promptMessage",
+                    "message": "Ta aplikacja jest projektem open source napisaną w języku C, która korzysta z API aplikacji Żappka, należącej do Żabka Group S.A. Aplikacja została stworzona wyłącznie w celach edukacyjnych i nie jest powiązana z Żabka Group S.A. Twórca aplikacji nie jest w żaden sposób związany z Żabka Group S.A. i nie czerpie żadnych korzyści finansowych z tego projektu. Wszystkie znaki towarowe, nazwy handlowe i logotypy są własnością odpowiednich właścicieli. Użytkownicy korzystają z aplikacji na własne ryzyko.",
+                },
                 {
                     "type": "downloadFile",
                     "file": "https://github.com/TehFridge/Zappka3DS/releases/download/v2.0.4/Zappka3DS.cia",
