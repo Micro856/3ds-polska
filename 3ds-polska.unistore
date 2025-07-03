@@ -5,7 +5,7 @@
         "description": "3DS Polska - UniSotre zawierający polskie projekty",
         "url": "https://raw.githubusercontent.com/Micro856/3ds-polska/refs/heads/main/3ds-polska.unistore",
         "file": "3ds-polska.unistore",
-        "sheetURL": "https://db.universal-team.net/unistore/universal-db.t3x",
+        "sheetURL": "https://github.com/Micro856/3ds-polska/raw/refs/heads/main/gfx/sheet0/3ds-polska.t3x",
         "sheet": "3ds-polska.t3x",
         "bg_index": 1,
         "bg_sheet": 0,
