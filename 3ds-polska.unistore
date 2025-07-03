@@ -1,0 +1,53 @@
+{
+    "storeInfo": {
+        "title": "3DS Polska",
+        "author": "Microwave",
+        "description": "3DS Polska - UniSotre zawierający polskie projekty",
+        "url": "https://db.universal-team.net/unistore/universal-db-beta.unistore",
+        "file": "3ds-polska.unistore",
+        "sheetURL": "https://db.universal-team.net/unistore/universal-db.t3x",
+        "sheet": "3ds-polska.t3x",
+        "bg_index": 1,
+        "bg_sheet": 0,
+        "revision": 1,
+        "version": 1
+    },
+    "storeContent": [
+        {
+            "info": {
+                "title": "Żappka3DS",
+                "author": "TehFridge",
+                "description": "dobywaj Żappsy prosto i unikalnie Żappka3DS",
+                "category": ["utility"],
+                "console": ["3DS"],
+                "icon_index": 0,
+                "sheet_index": 0,
+                "last_updated": "2025-06-03 at 00:04 (GMT+2)",
+                "license": "gpl-3.0",
+                "version": "v2.0.4"
+            },
+            "Zappka3DS.3dsx": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://github.com/TehFridge/Zappka3DS/releases/download/v2.0.4/Zappka3DS.3dsx",
+                    "output": "%3DSX%/Zappka3DS.3dsx"
+                }
+            ],
+            "Zappka3DS.cia": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://github.com/TehFridge/Zappka3DS/releases/download/v2.0.4/Zappka3DS.cia",
+                    "output": "sdmc:/Zappka3DS.cia"
+                },
+                {
+                    "type": "installCia",
+                    "file": "/Zappka3DS.cia"
+                },
+                {
+                    "type": "deleteFile",
+                    "file": "sdmc:/Zappka3DS.cia"
+                }
+            ]   
+        }
+    ]
+}
