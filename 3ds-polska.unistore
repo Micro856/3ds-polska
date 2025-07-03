@@ -6,7 +6,7 @@
         "url": "https://raw.githubusercontent.com/Micro856/3ds-polska/refs/heads/main/3ds-polska.unistore",
         "file": "3ds-polska.unistore",
         "sheetURL": "https://db.universal-team.net/unistore/universal-db.t3x",
-        "sheet": "universal-db.t3x",
+        "sheet": "3ds-polska.t3x",
         "bg_index": 1,
         "bg_sheet": 0,
         "revision": 1,
@@ -17,7 +17,7 @@
             "info": {
                 "title": "Żappka3DS",
                 "author": "TehFridge",
-                "description": "dobywaj Żappsy prosto i unikalnie Żappka3DS",
+                "description": "Zdobywaj Żappsy prosto i unikalnie Żappka3DS",
                 "category": ["utility"],
                 "console": ["3DS"],
                 "icon_index": 0,
@@ -46,6 +46,27 @@
                 {
                     "type": "deleteFile",
                     "file": "sdmc:/Zappka3DS.cia"
+                }
+            ]   
+        },
+        {
+            "info": {
+                "title": "KonwentyPołudniowe3DS",
+                "author": "TehFridge",
+                "description": "Client strony konwenty-poludniowe.pl na Nintendo 3DS'a",
+                "category": ["utility"],
+                "console": ["3DS"],
+                "icon_index": 1,
+                "sheet_index": 0,
+                "last_updated": "2024-08-13 at 00:00 (GMT+2)",
+                "license": "gpl-3.0",
+                "version": "v1.0.0"
+            },
+            "KonwentyPoludniowe3DS.3dsx": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://github.com/TehFridge/KonwentyPoludniowe3DS/releases/download/3ds/KonwentyPoludniowe3DS.3dsx",
+                    "output": "%3DSX%/KonwentyPoludniowe3DS.3dsx"
                 }
             ]   
         }
