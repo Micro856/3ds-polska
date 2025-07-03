@@ -6,11 +6,11 @@
         "url": "https://raw.githubusercontent.com/Micro856/3ds-polska/refs/heads/main/3ds-polska.unistore",
         "file": "3ds-polska.unistore",
         "sheetURL": "https://db.universal-team.net/unistore/universal-db.t3x",
-        "sheet": "3ds-polska.t3x",
+        "sheet": "universal-db.t3x",
         "bg_index": 1,
         "bg_sheet": 0,
         "revision": 1,
-        "version": 1
+        "version": 3
     },
     "storeContent": [
         {
